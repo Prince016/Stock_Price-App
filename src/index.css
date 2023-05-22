@@ -1,13 +1,90 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.show_section {
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.upload_csv{
+  border: 2px solid black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 17px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 6px 1px black;
+}
+.main_section{
+  /* display: flex;
+  flex-direction: row; */
+  margin: 3px;
+}
+
+.chart_area{
+   
+  border: 2px solid black;
+  box-shadow: 1px 0px 4px 5px rgb(98, 143, 250);
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.stocks_info{
+  border: 2px solid black;
+  box-shadow: 1px 0px 4px 5px rgb(98, 143, 250);
+  margin: 10px;
+  width: 30%;
+  padding: 22px;
+}
+
+/* h3{
+  border: 2px solid black ;
+  box-shadow: 1px 0px 4px 2px gray;
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 18px;
+   
+} */
+
+.select_dropdown{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2{
+  text-shadow: 0px 0px 2px  gray;
+}
+
+.upload_main_section{
+  margin: 10px ;
+  padding: 30px;
+}
+
+.select_in_upload{
+  text-align: end;
+  padding: 0px 30px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .select_dropdown {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .inside_chart{
+
+  }
 }
